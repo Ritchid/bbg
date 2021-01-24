@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.linkDec {
+  text-decoration: none;
+  background-color: #1d355f;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.linkDec:hover {
+  text-decoration: none;
+  background-color: #bd1f2f;
+  color: white;
+}
+
+.learn {
+  padding: 10px;
+  color: white;
+}
+
+.alignCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+section {
+  padding: 45px 5px;
+}
+
+.header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.438))), url("./action-adults-celebration-433452.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.438)), url("./action-adults-celebration-433452.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 80vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-wrap {
+  padding: 10px 2px;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.head-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.box-details {
+  width: 70%;
+  color: white;
+}
+
+.stan {
+  width: 300px;
+}
+
+.welcomeHead {
+  font-size: 25px;
+}
+
+summary {
+  outline: none;
+  background-color: #1d355f;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  color: white;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  font-size: 23px;
+}
+
+summary:focus {
+  background-color: #bd1f2f;
+}
+
+details {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+details ul, ol {
+  padding: 4px 30px;
+}
+
+.specialHead {
+  padding: 20px;
+}
+
+.fields-box {
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+}
+
+.boxes {
+  margin: 5px 3px;
+  padding: 20px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #bd1f2f;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.boxes a {
+  color: white;
+  text-decoration: none;
+}
+
+.boxes:hover {
+  cursor: pointer;
+  background-color: #1d355f;
+}
+
+.specialization {
+  background-color: #e2e2e255;
+}
+
+.news-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.newsitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 180px;
+}
+
+.newsImg {
+  width: 100%;
+}
+
+.newsHead {
+  font-size: 18px;
+}
+
+.newsPara {
+  font-size: 13px;
+  text-align: center;
+}
+
+.newsUtils {
+  margin: 1px;
+}
+
+.readnews {
+  padding: 3px;
+  font-size: 12px;
+  margin: auto;
+  margin-bottom: 2px;
+  background-color: #1d355f;
+  color: white;
+}
+
+.sliding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+
+@media (max-width: 700px) {
+  .box-details {
+    width: 100%;
+  }
+  .headtext {
+    font-size: 20px;
+  }
+}

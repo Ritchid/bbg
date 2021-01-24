@@ -1,0 +1,91 @@
+.spaced {
+  padding: 120px;
+}
+
+.main {
+  background-color: #fbf7f7;
+}
+
+.head {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.text-align {
+  text-align: center;
+  color: #1d355f;
+}
+
+.identities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.identities img {
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.identities h3 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.identities h3 {
+  text-align: center;
+}
+
+.position {
+  color: red;
+}
+
+.identities a {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  color: #1d355f;
+}
+
+.head-box {
+  width: 100%;
+  background-color: #bd1f2f;
+  padding: 20px;
+}
+
+.head-box h1 {
+  color: white;
+}
+
+.concerns {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+}
+
+.concerns {
+  font-size: 14px;
+  color: #1d355f;
+  font-weight: bolder;
+}
+
+.concerns i {
+  font-size: 25px;
+}

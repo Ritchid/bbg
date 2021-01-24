@@ -1,0 +1,126 @@
+.spaced {
+  padding: 100px;
+}
+
+.events-container {
+  background-color: #ffffff3a;
+  padding: 20px;
+}
+
+.event-row {
+  background-color: #f8f8f8;
+  padding-top: 5px;
+  margin-bottom: 8px;
+}
+
+.center-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.center-items img {
+  width: 100%;
+}
+
+.date-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.date-location h2, .head-title {
+  color: #1d355f;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.objective {
+  color: #bd1f2f;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.small {
+  position: relative;
+  bottom: 10px;
+}
+
+.small-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.details {
+  text-decoration: none;
+  padding: 5px;
+  background-color: #1d355f;
+  color: white;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.details:hover {
+  background-color: #bd1f2f;
+  text-decoration: none;
+  color: white;
+}
+
+.icon-div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon-div i {
+  margin: 5px;
+  font-size: 24px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-div i:nth-child(1) {
+  background-color: #be1f19;
+}
+
+.icon-div i:nth-child(2) {
+  background-color: #041820;
+}
+
+.icon-div i:nth-child(3) {
+  background-color: #0231cc;
+}
+
+@media (max-width: 780px) {
+  .objective {
+    font-size: 18px;
+  }
+}

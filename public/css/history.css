@@ -1,0 +1,45 @@
+.more {
+  padding: 15px;
+  outline: none;
+  border: none;
+  background-color: #bd1f2f;
+  color: white;
+}
+
+.boxes {
+  width: 20rem;
+  height: 13rem;
+  margin: 5px auto;
+  border: 1px solid #eeeeeee5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-image: -webkit-gradient(linear, left top, right top, from(#bd1f2f), to(#1d355f));
+  background-image: linear-gradient(to right, #bd1f2f, #1d355f);
+  color: white;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.boxes:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
+  background-image: linear-gradient(to right, #fff, #fff);
+  color: black;
+}
+
+@media screen and (min-width: 889px) {
+  * {
+    font-size: 18px;
+  }
+}

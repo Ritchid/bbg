@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <%- include ('links') %>
+    <link rel="stylesheet" href="/css/sign.css">
+     <%- include ('prevent') %>
+  </head>
+  <body>
+    <%- include ('header') %>
+
+    <section class="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 partners-sponsors">
+            <div class="prompt-box">
+              <p>
+                This area of our web site is for individual or company members
+                of the BBG. If you would like to know more about becoming a
+                member, please email us at
+                <a href="#">info@bbgnigeria.com</a> or go to
+                <a href="#">Membership</a>
+              </p>
+            </div>
+
+            <div class="credentials-">
+              <h2>MEMBER LOGIN</h2>
+              <form>
+                <input
+                  class="login-input"
+                  type="text"
+                  placeholder="Please Enter Email"
+                />
+                <input
+                  class="login-input"
+                  type="text"
+                  placeholder="Please Enter Password"
+                />
+
+                <div class="controls">
+                  <button class="uniques">Sign In</button>
+                  <a href="#" class="forget uniques">Forget Password</a>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members</title>
+    <link rel="stylesheet" href="/css/members.css">
+    <%- include ('links') %>
+    <%- include ('prevent') %>
+</head>
+<body>
+    <%- include ('mainHeader') %>
+    
+    <section class="section">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9" >
+
+              <div  class="row sliderBox">
+                  <div  class="col-lg-8 cardsBox cardContainer1"></div>
+            </div>
+
+            <div class="row sliderBox">
+                <div class="col-lg-8 cardsBox cardContainer2"></div>
+            </div>
+
+           <div class="row sliderBox">
+            <div class="col-lg-8 cardsBox cardContainer3"></div>
+          </div>
+
+          <div class="row sliderBox">
+            <div class="col-lg-8 cardsBox cardContainer4"></div>
+          </div>
+
+          <div class="row sliderBox">
+            <div class="col-lg-8 cardsBox cardContainer5"></div>
+          </div>
+
+          <div class="navigateBtn">
+                  <button class="prev">Prev</button>
+                  <button class="next">Next</button>
+                  
+            </div>
+
+          </div>
+          
+          <div class="col-lg-3">
+              <div class="swiper-container swiper-container3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                        <img  src="/img/emc3-logo.png" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img  src="/img/frigo_logo.png" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img  src="/img/alltrustcontruction-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+          </div>
+
+          </div>
+          
+        </div>
+      </div>
+      
+    </section>
+
+    <%- include ('mainFooter') %>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/members.js"></script>
+</body>
+</html>

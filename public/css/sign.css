@@ -1,0 +1,102 @@
+.prompt-box {
+  background-color: #87cfeb62;
+  padding: 20px;
+}
+
+.prompt-box p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.credentials- {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.credentials- h2 {
+  font-size: 18px;
+  color: #1d355f;
+  font-weight: bold;
+}
+
+.credentials- form {
+  height: 120px;
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login-input {
+  padding: 4px;
+  margin-bottom: 30px;
+}
+
+.login-input:focus {
+  outline: none;
+  border: 1px solid #3071ff;
+}
+
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+}
+
+.controls button {
+  border: none;
+}
+
+.forget:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.controls button, .forget {
+  background-color: #1d355f;
+  color: white;
+  padding: 8px;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.forget {
+  padding: 11px;
+  margin-left: 10px;
+}
+
+.uniques:hover {
+  background-color: #bd1f2f;
+}
+
+@media (max-width: 700px) {
+  .credentials- form {
+    width: 280px;
+  }
+  .login-input:nth-child(1) {
+    border: 1px solid;
+  }
+  .login-input:nth-child(2) {
+    margin-top: 10px;
+  }
+  .calendar {
+    padding: 20px 0;
+  }
+}
